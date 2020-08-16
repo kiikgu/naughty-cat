@@ -10,8 +10,8 @@ install:
  - npm install hexo-helper-qrcode --save
  - npm install node-sass --save
 script:
- - hexo clean #清除
- - hexo generate #生成
+ - npx hexo clean #清除
+ - npx hexo generate #生成
  
 after_script:
  - cd ./public
